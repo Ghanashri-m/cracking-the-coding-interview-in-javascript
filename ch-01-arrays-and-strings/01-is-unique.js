@@ -13,3 +13,8 @@ const checkDuplicate = (testString) => {
 }
 let str = 'String';
 checkDuplicate(str);
+
+// Leet Code Equivalent
+// 217 - Contains Duplicate
+
+// return (new Set(array).size !== array.length)
